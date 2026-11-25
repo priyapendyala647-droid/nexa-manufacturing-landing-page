@@ -1,0 +1,19 @@
+FINAL SUBMISSION CHECKLIST
+
+[✓] React functional components and hooks
+[✓] Semantic HTML5 landmarks and labeled form fields
+[✓] Mobile-first responsive CSS and breakpoints
+[✓] Accessible mobile navigation and visible focus states
+[✓] Controlled registration form with validation and status states
+[✓] Registration API integration fixture
+[✓] Brand assets and design reference materials included
+[✓] README setup and deployment documentation
+[✓] API tests passed (4/4)
+[ ] npm install and npm run build verified on developer machine
+[ ] Browser checks at 320, 390, 768, 1200, and 1440px
+[ ] Keyboard and form interaction checks in browser
+[ ] Lighthouse performance score >85 measured on deployed URL
+[ ] GitHub repository URL added
+[ ] Live HTTPS deployment URL added
+
+Do not mark unchecked items complete until they have actually been performed.

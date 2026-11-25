@@ -1,0 +1,16 @@
+NEXA MANUFACTURING — PROJECT HANDOFF
+
+1. Install Node.js 20+ and npm.
+2. Open a terminal in this folder.
+3. Run: npm install
+4. Terminal 1: npm run api
+5. Terminal 2: npm run dev
+6. Open the Vite local URL shown in the terminal.
+7. Run tests with: npm run test:api
+8. Run production build with: npm run build
+
+Read README.md for full setup, structure, deployment, and QA details.
+
+IMPORTANT: The supplied registration endpoint validates and acknowledges enquiries only.
+It does not store personal information or send emails. Do not claim permanent lead storage.
+GitHub and live deployment URLs must be created from the freelancer's own accounts.

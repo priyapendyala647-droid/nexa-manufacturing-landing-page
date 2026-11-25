@@ -1,0 +1,32 @@
+NEXA MANUFACTURING — DELIVERY NOTE
+Assignment: ds8ASLDJanckGEt749Ay0qLL0g72_nORgNuMLgCFCzNsn34J1
+Client: Nexa Manufacturing Unit India
+
+DELIVERABLE CONTENT
+- React 18 + Vite single-page landing page
+- Responsive Header, Hero, Capabilities, Approach, Registration Form, Footer components
+- Functional mobile navigation
+- Controlled form state and client-side validation
+- POST /api/register integration and local API fixture
+- Modular, responsive CSS with mobile/tablet breakpoints
+- Supplied brand assets and design references
+- README setup/deployment documentation and API tests
+- Vercel configuration
+
+TEST RESULTS
+- API tests: 4 passed, 0 failed.
+- npm dependency installation: could not complete in this execution environment (timed out).
+- Production build: not yet verified.
+- Browser cross-device checks: not yet run.
+- Lighthouse: not measured; target >85 remains to be verified on the deployed URL.
+
+REGISTRATION DATA LIMITATION
+The provided endpoint validates a request and returns an acknowledgement only. It does not
+store personal data, send email, or integrate with a CRM. This is disclosed on the landing page
+and in README.md. Production persistence is outside the supplied starter integration.
+
+LINKS — COMPLETE AFTER PUBLISHING
+GitHub repository: [Add actual repository URL]
+Live deployment: [Add actual HTTPS deployment URL]
+
+No repository or deployment URL is fabricated or claimed as published.
