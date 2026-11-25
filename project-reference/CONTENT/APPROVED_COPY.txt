@@ -1,0 +1,21 @@
+BRAND: Nexa Manufacturing
+TAGLINE: Build smarter. Move forward.
+KICKER: MODERN MANUFACTURING • INDIA
+HERO: Practical manufacturing solutions for teams ready to plan production, improve workflows, and take the next step.
+CTA 1: Request a consultation (#register)
+CTA 2: Explore capabilities (#capabilities)
+CAPABILITY 1: Production planning — Map the right sequence for each project.
+CAPABILITY 2: Workflow improvement — Spot friction and simplify handoffs.
+CAPABILITY 3: Engineering support — Turn requirements into practical actions.
+APPROACH: Assess — Understand your objectives and constraints.
+APPROACH: Plan — Map practical steps, ownership, and milestones.
+APPROACH: Deliver — Share a clear action plan for the next phase.
+REGISTRATION TITLE: Let’s talk about your project
+REGISTRATION INTRO: Share your details and preferred focus. We will review your enquiry.
+FIELDS: Full name, Work email, Organization (optional), Focus area (Production planning | Workflow improvement | Engineering support), consent checkbox.
+CONSENT: I agree to be contacted about this enquiry.
+SUBMIT: Send enquiry
+SUCCESS MESSAGE: Thanks. Your enquiry was received by the local registration endpoint.
+ERROR MESSAGE: We could not process the enquiry. Please review the form and try again.
+PRIVACY DISCLOSURE: Contact details entered in this form are used to respond to this enquiry. The supplied local API validates requests and returns an acknowledgement; it does not store personal data.
+FOOTER: © 2026 Nexa Manufacturing · Industrial solutions

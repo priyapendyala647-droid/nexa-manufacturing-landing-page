@@ -1,0 +1,31 @@
+NEXA MANUFACTURING | LANDING PAGE DESIGN SPECIFICATION
+
+PURPOSE: Responsive single-page manufacturing services landing page. Desktop and mobile references are supplied as PNG and SVG. The references establish content hierarchy and approved visual styling.
+
+BRAND PALETTE
+Deep navy #11263A: headings, footer, navigation
+Industrial green #1E8E73: buttons, active elements, key labels
+Warm lime #DAF5B7: decorative icon backplates
+Soft canvas #F6F8F4: page background
+Muted slate #607485: supporting copy
+White #FFFFFF: cards and input surfaces
+Amber #E59E61: minor illustration highlight only
+Typography: Arial/Helvetica/system sans-serif fallback. Heading weights 700–800; body 400–500. Avoid remote font dependencies.
+
+REFERENCE DIMENSIONS
+Desktop: desktop_1440.png (1440 x 1000). Mobile: mobile_390.png (390 x 1480). Both corresponding SVGs can be inspected for placement. References are full layouts; the desktop screenshot focuses on the hero and capabilities above the fold. Build registration section after capabilities in the full page.
+Desktop max content width 1276px, centered. Header approx 94px. Hero in two columns. Mobile <= 600px: stacked layout, menu toggle, single-column feature cards, full-width form. Tablet 601–1023px: adapt columns without overflow. Default breakpoints: 600px, 1024px. Check widths: 320, 390, 768, 1200, 1440px.
+
+SECTIONS IN ORDER
+Header: logo, Capabilities -> #capabilities, Our approach -> #approach, Contact -> #register, Get in touch -> #register; mobile menu keyboard operable.
+Hero: kicker MODERN MANUFACTURING • INDIA, H1 Build smarter. Move forward., description and CTAs.
+Capabilities: 3 cards from APPROVED_COPY.txt.
+Approach: three sequential steps Assess -> Plan -> Deliver with brief descriptions.
+Registration: title Let’s talk about your project, full name, work email, organization (optional), focus area select, consent checkbox, submit button, inline errors and accessible status.
+Footer: © 2026 Nexa Manufacturing · Industrial solutions; Privacy and Contact should link to on-page disclosure and registration; do not invent external destinations.
+
+IMPLEMENTATION EXPECTATIONS
+Use React functional components (Header, Hero, Capabilities, Approach, RegistrationForm, Footer), hooks for form state, semantic HTML5, local CSS Modules or modular CSS files; no inline styles. Responsive assets should use width/height, lazy-loading for below-the-fold content, descriptive alt text and no unnecessary JS dependencies. Form: name required (min 2 chars), email required and valid, focus area required, consent required; POST JSON to /api/register, show loading/success/error states, and do not claim server-side storage. Local API provided as integration fixture; production persistence is outside assignment scope. Avoid hardcoded secrets.
+
+ACCEPTANCE
+No page horizontal scroll at 320px, 390px, 768px and 1200px. No JS console errors. Semantic landmark tags, proper headings and labeled inputs. Keyboard focus and accessible validation errors. Record genuine browser test results; Lighthouse performance goal >85, measured on deployed URL. GitHub repository, live HTTPS URL and setup README required.
